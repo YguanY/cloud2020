@@ -14,7 +14,7 @@ public class ApplicationContextConfig {
     //往容器中添加一个RestTemplate
     //RestTemplate提供了多种便捷访问远程http访问的方法
     @Bean
-    @LoadBalanced//使用@LoadBalanced注解赋予RestTemplate负载均衡的能力
+//    @LoadBalanced//使用@LoadBalanced注解赋予RestTemplate负载均衡的能力
     public RestTemplate restTemplate(){
         return new RestTemplate();
     }
