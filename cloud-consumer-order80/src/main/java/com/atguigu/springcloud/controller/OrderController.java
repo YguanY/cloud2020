@@ -1,6 +1,6 @@
-package com.angenin.springcloud.controller;
+package com.atguigu.springcloud.controller;
 
-import com.angenin.springcloud.lb.LoadBalancer;
+import com.atguigu.springcloud.lb.LoadBalancer;
 import com.atguigu.springcloud.entities.CommonResult;
 import com.atguigu.springcloud.entities.Payment;
 import lombok.extern.slf4j.Slf4j;

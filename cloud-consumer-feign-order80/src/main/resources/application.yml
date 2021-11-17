@@ -14,3 +14,9 @@ ribbon:
   #指的是建立连接后从服务器读取到可用资源所用的时间
   ReadTimeout: 5000
 
+logging:
+  level:
+    # feign日志以什么级别监控哪个接口
+    com.atguigu.springcloud.service.PaymentFeignService: debug
+
+
