@@ -13,6 +13,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class MyLB implements LoadBalancer{
     private AtomicInteger atomicInteger = new AtomicInteger(0);
 
+    //自己写AtomicInteger的getAndIncrement方法
     public final int getAndIncrement()
     {
         int current;
